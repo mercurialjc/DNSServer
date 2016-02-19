@@ -1,0 +1,9 @@
+#!/bin/bash
+if [ "$#" -eq 4 ] 
+  then
+java DNSServer $1 $2 $3 $4
+else
+    echo Illeagal Arguments
+
+fi
+
